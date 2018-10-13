@@ -1,0 +1,59 @@
+<!DOCUTYPE html>
+<html>
+<head>
+    <title>Regina Doherty</title>
+  </head>
+<style>
+    body {
+      background: green;
+  }
+    #info {
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+    font-family: cursive;
+  }
+    #info a:hover {
+    color: white;
+  }
+    #name {
+    font-size: 75px;
+    font-style: oblique;
+    margin-left: 500px;
+  }
+    #mask {
+    padding: 0px 0px 0px 400px;
+  }
+    #survey {
+      margin: 25px 0px 0px 0px;
+      position: relative;
+      font-weight: bold;
+      color: black;
+      font-style: italic;
+      font-size: 30px;
+    }
+    #enter {
+      font-size: 30px;
+    }
+</style>
+    <body>
+    <h1 id="name">Regina Doherty</h1>
+    <img id="mask" src='https://scontent.fdet1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/26168637_1685724384783538_59598417154754337_n.jpg?_nc_cat=104&efg=eyJpIjoidCJ9&_nc_ht=scontent.fdet1-1.fna&oh=8b179ae0799ad3741b5f3b95c13f0f2b&oe=5C4AF10C' alt="regina wearing a snapchat filter">
+    <hr>
+    <p id = 'info'><a href="https://m.facebook.com/profile.php?id=100000379787026&ref=content_filter">Regina Doherty</a>, where to even begin. This woman is super shy, yet outgoing. Very timid, yet extremely funny.
+      Somehow she manages to use her weaknesses as a strength. She does all of this with much ease.<br>
+    </p>
+    <p id="info">Tell me what you think about her down below.</p>
+  <div id="survey">
+    <label><input type="checkbox">Funny?</label>
+    <label><input type="checkbox">Smarty Pants?</label>
+    <label><input type="checkbox">Crazy?</label>
+  </div>
+  <div class="enter">
+    <form action="/submit-quality"></form>
+    <input type="Submit!" placeholder="What else??">Feel free to add more qualities!
+    <button type="Submit">Send them to us!</button>
+  </div>
+  </body>
+</html>
